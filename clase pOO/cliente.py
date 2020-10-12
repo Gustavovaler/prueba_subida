@@ -40,11 +40,11 @@ class Cliente:
 
 
 
-# cliente = Cliente('Juan', 'Evergreen 742', 1250)
+cliente = Cliente('Juan', 'Evergreen 742', 1250)
 
-# cliente.hacer_pedido()
+cliente.hacer_pedido()
 
-# cliente.pagar()
+cliente.pagar()
 
 
 
