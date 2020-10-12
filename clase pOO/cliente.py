@@ -17,13 +17,13 @@ class Cliente:
         self.restaurante = Restaurante('Danubio')
         self.pedir = self.restaurante.recibir_pedido(self.pedido)
         
-    def pagar(self):
-        self.dinero_restante = self.restaurante.recibir_pago(self.dinero)
-        if isinstance(self.dinero_restante, int):
-            print(f'Dinero luego de la compra {self.dinero_restante}')
-            self.esperar()
-        else:
-            print(self.dinero_restante)
+    # def pagar(self):
+    #     self.dinero_restante = self.restaurante.recibir_pago(self.dinero)
+    #     if isinstance(self.dinero_restante, int):
+    #         print(f'Dinero luego de la compra {self.dinero_restante}')
+    #         self.esperar()
+    #     else:
+    #         print(self.dinero_restante)
 
 
     def esperar(self):
@@ -44,7 +44,7 @@ cliente = Cliente('Juan', 'Evergreen 742', 1250)
 
 cliente.hacer_pedido()
 
-cliente.pagar()
+# cliente.pagar()
 
 
 
