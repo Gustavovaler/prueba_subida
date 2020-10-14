@@ -57,3 +57,7 @@ cliente.hacer_pedido()
 cliente.pagar()
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> nueva_rama
