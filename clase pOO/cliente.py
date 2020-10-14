@@ -55,4 +55,8 @@ cliente = Cliente('Mariel', 'MujerSiempreviva 742', 2500)
 cliente.hacer_pedido()
 
 cliente.pagar()
+<<<<<<< HEAD
 #esta linea esta creada en el branch main seguro
+=======
+#esta linea esta en el branch rama
+>>>>>>> nueva_rama
