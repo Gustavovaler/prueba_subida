@@ -44,7 +44,7 @@ cliente = Cliente('Juan', 'Evergreen 742', 1250)
 
 cliente.hacer_pedido()
 
-# cliente.pagar()
+cliente.pagar()
 
 
 
