@@ -56,8 +56,4 @@ cliente.hacer_pedido()
 
 cliente.pagar()
 
-<<<<<<< HEAD
-# esta linea esta en main. 
-=======
 # esta linea esta en la rama nueva. 
->>>>>>> nueva_rama
